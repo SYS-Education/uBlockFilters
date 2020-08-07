@@ -1,0 +1,12 @@
+! Title: Oregon Charter Filter
+! Expires: 2 days (update frequency)
+! Version: 1.0
+!-----------------------Specific Cosmetic Filters------------------------!
+https://oregoncharter.zoom.us 
+oregoncharter.zoom.us###navbar
+oregoncharter.zoom.us##.nav-menu
+oregoncharter.zoom.us###header > .container
+oregoncharter.zoom.us##.zm-message--warning.is-closable.zm-message
+oregoncharter.zoom.us##.mini-layout-body > .row
+oregoncharter.zoom.us###content_container
+oregoncharter.zoom.us##.ada-embed-button\
