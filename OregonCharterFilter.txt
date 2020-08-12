@@ -9,3 +9,5 @@ oregoncharter.zoom.us##.zm-message--warning.is-closable.zm-message
 oregoncharter.zoom.us##.mini-layout-body > .row
 oregoncharter.zoom.us###content_container
 oregoncharter.zoom.us##.ada-embed-button\
+oregoncharter.zoom.us##.total-main-content
+oregoncharter.zoom.us##.ada-embed-button__icon.loaded.isvg
