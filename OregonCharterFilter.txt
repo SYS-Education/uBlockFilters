@@ -12,3 +12,4 @@ oregoncharter.zoom.us##.ada-embed-button\
 oregoncharter.zoom.us##.total-main-content
 oregoncharter.zoom.us##.ada-embed-button__icon.loaded.isvg
 oregoncharter.zoom.us##.ada-embed-button
+zoom.ada.support/chat/
