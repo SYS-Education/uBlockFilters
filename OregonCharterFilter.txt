@@ -13,3 +13,10 @@ oregoncharter.zoom.us##.total-main-content
 oregoncharter.zoom.us##.ada-embed-button__icon.loaded.isvg
 oregoncharter.zoom.us##.ada-embed-button
 zoom.ada.support/chat/
+
+!-----------------------Comments------------------------!
+! To explicitely allow a certain website, use the following characters:
+! @@||
+! Example: 
+! @@||pbs.org 
+! The above allows all pages of pbs.org
