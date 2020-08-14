@@ -20,3 +20,6 @@ zoom.ada.support/chat/
 ! Example: 
 ! @@||pbs.org 
 ! The above allows all pages of pbs.org
+
+!-----------------------Allowed Websites------------------------!
+@@||canvas.com
