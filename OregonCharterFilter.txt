@@ -15,6 +15,9 @@ oregoncharter.zoom.us##.ada-embed-button
 zoom.ada.support/chat/
 ! 2020-10-07 https://zoom.us
 zoom.us###navbar
+! 2020-10-08 https://zoom.us
+zoom.us###black-topbar
+
 
 !-----------------------Comments------------------------!
 ! To explicitely allow a certain website, use the following characters:
