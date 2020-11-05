@@ -48,7 +48,7 @@ The current JSON file being used is here:
       } 
     }
     
-When adding in text that is not the words "true" or "false", the text needs to be surround by quotes and those quotes need to be escaped -- every double quote needs to be preceded by a '\'. This is because of the way that uBlock ingests text -- we're essentially putting a JSON file inside of a JSON file (see userSettings listed within adminSettings). An example of this escape can be seen here:
+When adding in text that is not the words "true" or "false", the text needs to be surround by quotes and those quotes need to be escaped -- every double quote needs to be preceded by a '\\'. This is because of the way that uBlock ingests text -- we're essentially putting a JSON file inside of a JSON file (see userSettings listed within adminSettings). An example of this escape can be seen here:
 
     \"externalLists\": \"https://example.com/blocker.txt\"
 
