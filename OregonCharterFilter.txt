@@ -17,6 +17,7 @@ zoom.ada.support/chat/
 zoom.us###navbar
 ! 2020-10-08 https://zoom.us
 zoom.us###black-topbar
+http://oregonlive.com/resizer/*0x0/smart/cloudfront-us-east-1.images.arcpublishing.com/
 
 
 !-----------------------Comments------------------------!
@@ -76,4 +77,3 @@ zoom.us###black-topbar
 @@||whiteboard.fi/
 @@||youcubed.org/
 @@||orca.instructure.com/courses/*
-@@||oregonlive.com
