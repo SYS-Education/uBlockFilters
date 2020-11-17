@@ -17,8 +17,9 @@ zoom.ada.support/chat/
 zoom.us###navbar
 ! 2020-10-08 https://zoom.us
 zoom.us###black-topbar
-http://oregonlive.com/resizer/*0x0/smart/cloudfront-us-east-1.images.arcpublishing.com/
-
+! 2020-11-17 Oregonlive.com
+https://cdn.taboola.com/libtrc/advance-network/loader.js
+https://satisfycork.com/
 
 !-----------------------Comments------------------------!
 ! To explicitely allow a certain website, use the following characters:
