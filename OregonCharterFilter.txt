@@ -76,3 +76,4 @@ zoom.us###black-topbar
 @@||whiteboard.fi/
 @@||youcubed.org/
 @@||orca.instructure.com/courses/*
+@@||oregonlive.com
