@@ -26,8 +26,8 @@ https://a.pub.network/krunker-io/pubfig.js
 https://matchmaker.krunker.io/generate-token
 ! 2020-11-24 justbuild.lol
 https://justbuild.nyc3.cdn.digitaloceanspaces.com/
-/^https?:\/\/[^\s\\].weebly.com/uploads
-blob:https://lscinema.weebly.com
+[:lower]\.weebly\.com
+
 
 !-----------------------Comments------------------------!
 ! To explicitely allow a certain website, use the following characters:
