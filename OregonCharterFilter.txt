@@ -27,7 +27,8 @@ https://matchmaker.krunker.io/generate-token
 ! 2020-11-24 justbuild.lol
 https://justbuild.nyc3.cdn.digitaloceanspaces.com/
 weebly.com
-www-sites-opensocial.googleusercontent.com/gadgets/js
+www-sites-opensocial.googleusercontent.com
+www-ig-opensocial.googleusercontent.com
 
 
 !-----------------------Comments------------------------!
