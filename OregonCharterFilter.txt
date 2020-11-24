@@ -26,8 +26,7 @@ https://a.pub.network/krunker-io/pubfig.js
 https://matchmaker.krunker.io/generate-token
 ! 2020-11-24 justbuild.lol
 https://justbuild.nyc3.cdn.digitaloceanspaces.com/
-
-[:lower]\.weebly\.com
+weebly.com
 
 
 !-----------------------Comments------------------------!
