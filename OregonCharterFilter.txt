@@ -69,6 +69,7 @@ cdn.arkadiumhosted.com
 herokuapp.com/socket.io
 slither.io/s/
 fun.clownplay.com
+yyggames.com
 !-- End Game infra block--!
 
 !-----------------------Comments------------------------!
