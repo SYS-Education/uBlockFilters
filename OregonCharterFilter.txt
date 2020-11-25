@@ -34,7 +34,10 @@ builds.crazygames.com
 gameframe.crazygames.com
 cdn.iubenda.com
 gamedistribution.com
-
+mtvnservices.com
+zombsroyale.io/asset/
+gameflare.com
+gamepix.com/_next
 
 !-----------------------Comments------------------------!
 ! To explicitely allow a certain website, use the following characters:
