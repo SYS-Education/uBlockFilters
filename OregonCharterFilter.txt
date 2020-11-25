@@ -68,6 +68,7 @@ wingsiofree.com
 cdn.arkadiumhosted.com
 herokuapp.com/socket.io
 slither.io/s/
+fun.clownplay.com
 !-- End Game infra block--!
 
 !-----------------------Comments------------------------!
