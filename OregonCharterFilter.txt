@@ -64,6 +64,7 @@ cdn.zone.msn.com/assets/games/
 pogospike.com
 agame.com/wdg
 cdn.bitmovin.com
+wingsiofree.com
 
 !-----------------------Comments------------------------!
 ! To explicitely allow a certain website, use the following characters:
