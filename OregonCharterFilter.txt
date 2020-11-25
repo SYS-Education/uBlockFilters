@@ -67,6 +67,7 @@ cdn.bitmovin.com
 wingsiofree.com
 cdn.arkadiumhosted.com
 herokuapp.com/socket.io
+slither.io/s/
 !-- End Game infra block--!
 
 !-----------------------Comments------------------------!
