@@ -66,6 +66,7 @@ agame.com/wdg
 cdn.bitmovin.com
 wingsiofree.com
 cdn.arkadiumhosted.com
+herokuapp.com/socket.io
 !-- End Game infra block--!
 
 !-----------------------Comments------------------------!
