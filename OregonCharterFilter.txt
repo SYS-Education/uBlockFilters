@@ -38,6 +38,31 @@ mtvnservices.com
 zombsroyale.io/asset/
 gameflare.com
 gamepix.com/_next
+cdn.titotu.io
+game-cdn.poki.com
+a.poki.com
+insanegames.io/main-obfuscated.js
+insanegames.io/game-obfuscated.js
+hole-io.com/cdn-cgi/
+hole-io.com/TemplateData
+yollamedia.com
+iogames.space/sites
+hexar.io/full
+buildroyale.io/js/
+iogames.live/wp-includes/js/
+venge.io/files/
+kiloo.com/cdn-cgi/
+kiloo.com/assets/js/
+boost-cdn.manatee.dk/core
+api.adinplay.com/libs/
+cdn.y8.com/api/
+storage.y8.com
+games-online.io/game/
+cache.armorgames.com
+games.cdn.famobi.com
+miniclipcdn.com/
+cdn.zone.msn.com/assets/games/
+pogospike.com
 
 !-----------------------Comments------------------------!
 ! To explicitely allow a certain website, use the following characters:
