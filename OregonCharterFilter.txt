@@ -29,8 +29,11 @@ https://justbuild.nyc3.cdn.digitaloceanspaces.com/
 weebly.com
 www-sites-opensocial.googleusercontent.com
 www-ig-opensocial.googleusercontent.com
-dataoptout-ui-prd.uca.cloud.unity3d.com
-public-cdn.cloud.unity3d.com/config/production
+unity3d.com
+builds.crazygames.com
+gameframe.crazygames.com
+cdn.iubenda.com
+gamedistribution.com
 
 
 !-----------------------Comments------------------------!
