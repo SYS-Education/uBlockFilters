@@ -65,6 +65,7 @@ pogospike.com
 agame.com/wdg
 cdn.bitmovin.com
 wingsiofree.com
+!-- End Game infra block--!
 
 !-----------------------Comments------------------------!
 ! To explicitely allow a certain website, use the following characters:
