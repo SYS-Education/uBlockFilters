@@ -20,11 +20,10 @@ zoom.us###black-topbar
 ! 2020-11-17 Oregonlive.com
 https://cdn.taboola.com/libtrc/advance-network/loader.js
 https://satisfycork.com/
-! 2020-11-24 Krunker.io
+! 2020-11-24 Game infrastructure
 https://krunker.io/libs/
 https://a.pub.network/krunker-io/pubfig.js
 https://matchmaker.krunker.io/generate-token
-! 2020-11-24 justbuild.lol
 https://justbuild.nyc3.cdn.digitaloceanspaces.com/
 weebly.com
 www-sites-opensocial.googleusercontent.com
@@ -63,6 +62,8 @@ games.cdn.famobi.com
 miniclipcdn.com/
 cdn.zone.msn.com/assets/games/
 pogospike.com
+agame.com/wdg
+cdn.bitmovin.com
 
 !-----------------------Comments------------------------!
 ! To explicitely allow a certain website, use the following characters:
