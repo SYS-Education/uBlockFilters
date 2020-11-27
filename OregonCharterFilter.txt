@@ -70,6 +70,7 @@ herokuapp.com/socket.io
 slither.io/s/
 fun.clownplay.com
 yyggames.com
+funo.com
 !-- End Game infra block--!
 
 !-----------------------Comments------------------------!
