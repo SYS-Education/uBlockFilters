@@ -71,6 +71,7 @@ slither.io/s/
 fun.clownplay.com
 yyggames.com
 funo.com
+newio.games
 !-- End Game infra block--!
 
 !-----------------------Comments------------------------!
