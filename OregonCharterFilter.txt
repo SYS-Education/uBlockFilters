@@ -73,6 +73,7 @@ yyggames.com
 funo.com
 newio.games
 nodeunblocker.org
+cdn.registerdisney.go.com/
 !-- End Game infra block--!
 
 !-----------------------Comments------------------------!
