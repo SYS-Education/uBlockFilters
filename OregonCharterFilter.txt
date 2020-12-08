@@ -22,6 +22,7 @@ https://cdn.taboola.com/libtrc/advance-network/loader.js
 https://satisfycork.com/
 ! 2020-11-24 Game infrastructure
 https://krunker.io/libs/
+https://krunker.io/css
 https://a.pub.network/krunker-io/pubfig.js
 https://matchmaker.krunker.io/generate-token
 https://justbuild.nyc3.cdn.digitaloceanspaces.com/
