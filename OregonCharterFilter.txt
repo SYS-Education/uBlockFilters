@@ -21,6 +21,7 @@ zoom.us###black-topbar
 https://cdn.taboola.com/libtrc/advance-network/loader.js
 https://satisfycork.com/
 ! 2020-11-24 Game infrastructure
+https://static.twitchcdn.net
 https://krunker.io/libs/
 https://krunker.io/css
 https://a.pub.network/krunker-io/pubfig.js
