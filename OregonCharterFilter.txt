@@ -76,6 +76,7 @@ funo.com
 newio.games
 nodeunblocker.org
 cdn.registerdisney.go.com/
+https://embedder.softgames.de/
 !-- End Game infra block--!
 
 !-----------------------Comments------------------------!
