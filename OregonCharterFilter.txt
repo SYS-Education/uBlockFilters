@@ -136,3 +136,4 @@ https://embedder.softgames.de/
 @@||whiteboard.fi/
 @@||youcubed.org/
 @@||orca.instructure.com/courses/*
+@@||orca.instructure.com
