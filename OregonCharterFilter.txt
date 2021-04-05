@@ -27,7 +27,6 @@ https://krunker.io/css
 https://a.pub.network/krunker-io/pubfig.js
 https://matchmaker.krunker.io/generate-token
 https://justbuild.nyc3.cdn.digitaloceanspaces.com/
-weebly.com
 www-sites-opensocial.googleusercontent.com
 www-ig-opensocial.googleusercontent.com
 unity3d.com
