@@ -2,21 +2,6 @@
 ! Expires: 12 hours (update frequency)
 ! Version: 2.0
 !-----------------------Specific Cosmetic Filters------------------------!
-oregoncharter.zoom.us###navbar
-oregoncharter.zoom.us##.nav-menu
-oregoncharter.zoom.us###header > .container
-oregoncharter.zoom.us##.zm-message--warning.is-closable.zm-message
-oregoncharter.zoom.us##.mini-layout-body > .row
-oregoncharter.zoom.us###content_container
-oregoncharter.zoom.us##.ada-embed-button\
-oregoncharter.zoom.us##.total-main-content
-oregoncharter.zoom.us##.ada-embed-button__icon.loaded.isvg
-oregoncharter.zoom.us##.ada-embed-button
-zoom.ada.support/chat/
-! 2020-10-07 https://zoom.us
-zoom.us###navbar
-! 2020-10-08 https://zoom.us
-zoom.us###black-topbar
 ! 2020-11-17 Oregonlive.com
 https://cdn.taboola.com/libtrc/advance-network/loader.js
 https://satisfycork.com/
