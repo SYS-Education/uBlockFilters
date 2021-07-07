@@ -24,33 +24,26 @@ Just like all extensions, G Suite allows you to enable/disable features in uBloc
 
 The current JSON file being used is here:
 
-        { "adminSettings": { 
-              "Value": "{ \"userSettings\": {
-                    \"externalLists\": \"https://raw.githubusercontent.com/SYS-Education/uBlockFilters/master/OregonCharterFilter.txt\", 
-                    \"contextMenuEnabled\": false, 
-                    \"autoUpdatePeriod\": 1, 
-                    \"whitelist\":[\"orca.instructure.com/courses/*\"],  
-                    \"selectedFilterLists\":[
-                        \"user-filters\",
-                        \"assets.json\",
-                        \"public_suffix_list.dat\",
-                        \"ublock-resources\",
-                        \"ublock-filters\",
-                        \"ublock-badware\",
-                        \"ublock-privacy\",
-                        \"ublock-unbreak\",
-                        \"easylist\",\"malware-0\",
-                        \"assets/thirdparties/mirror1.malwaredomains..com/files/justdomains\",
-                        \"plowe-0\",
-                        \"https://raw.githubusercontent.com/SYS-Education/uBlockFilters/master/OregonCharterFilter.txt\"]
-                        }  
-                     }" 
-                 } 
+    { "adminSettings": { 
+        "Value": "{\"userSettings\":
+            {\"contextMenuEnabled\": false,
+            \"externalLists\":\"https://raw.githubusercontent.com/SYS-Education/uBlockFilters/master/OregonCharterFilter.txt\",
+            \"importedLists\":[\"https://raw.githubusercontent.com/SYS-Education/uBlockFilters/master/OregonCharterFilter.txt\"],
+            \"tooltipsDisabled\": true,
+            \"webrtcIPAddressHidden\": true
             }
+        }"
+    },
+    "disableDashboard":{"Value":true},
+    "disabledPopupPanelParts": {"Value": ["basicTools","extraTools","overviewPane"]}
+    }
 
 When inputting this into G Suite, please keep in mind that the text needs to be **all on one line** like so:
 
-        { "adminSettings": {"Value": "{ \"userSettings\": {\"externalLists\": \"https://raw.githubusercontent.com/SYS-Education/uBlockFilters/master/OregonCharterFilter.txt\", \"contextMenuEnabled\": false, \"autoUpdatePeriod\": 1, \"whitelist\":[\"orca.instructure.com/courses/*\"],  \"selectedFilterLists\":[\"user-filters\",\"assets.json\",\"public_suffix_list.dat\",\"ublock-resources\",\"ublock-filters\",\"ublock-badware\",\"ublock-privacy\",\"ublock-unbreak\",\"easylist\",\"malware-0\",\"assets/thirdparties/mirror1.malwaredomains..com/files/justdomains\",\"plowe-0\",\"https://raw.githubusercontent.com/SYS-Education/uBlockFilters/master/OregonCharterFilter.txt\"]}  }" } }
+        { "adminSettings": { "Value": "{\"userSettings\":{\"contextMenuEnabled\": false,\"externalLists\":\"https://raw.githubusercontent.com/SYS-Education/uBlockFilters/master/OregonCharterFilter.txt\",\"importedLists\":[\"https://raw.githubusercontent.com/SYS-Education/uBlockFilters/master/OregonCharterFilter.txt\"],\"tooltipsDisabled\": true,\"webrtcIPAddressHidden\": true}}"},
+    "disableDashboard":{"Value":true},
+    "disabledPopupPanelParts": {"Value": ["basicTools","extraTools","overviewPane"]}
+    }
 
 When adding in text that is not the words "true" or "false", the text needs to be surround by quotes and those quotes need to be escaped -- every double quote needs to be preceded by a '\\'. This is because of the way that uBlock ingests text -- we're essentially putting a JSON file inside of a JSON file (see userSettings listed within adminSettings). An example of this escape can be seen here:
 
