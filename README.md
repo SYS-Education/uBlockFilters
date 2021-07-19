@@ -38,6 +38,17 @@ The current JSON file being used is here:
     "disabledPopupPanelParts": {"Value": ["basicTools","extraTools","overviewPane"]}
     }
 
+What the above JSON values does is:
+
+- Turns off the context menu in order to prevent accidental blocking in the right-click menu
+- References and checks off the external list OregonCharterFilter.txt
+- Turns off tool tips in the uBlock dashboard
+- Turns on WebRTC protection
+- Turns off the dashboard which is normally accessible by opening up the extension in Chrome
+- Turns off the tools at the bottom of the extension menu to prevent accidental blocking
+
+
+    
 When inputting this into G Suite, please keep in mind that the text needs to be **all on one line** like so:
 
         { "adminSettings": { "Value": "{\"userSettings\":{\"contextMenuEnabled\": false,\"externalLists\":\"https://raw.githubusercontent.com/SYS-Education/uBlockFilters/master/OregonCharterFilter.txt\",\"importedLists\":[\"https://raw.githubusercontent.com/SYS-Education/uBlockFilters/master/OregonCharterFilter.txt\"],\"tooltipsDisabled\": true,\"webrtcIPAddressHidden\": true}}"},
