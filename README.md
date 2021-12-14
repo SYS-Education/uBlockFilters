@@ -1,109 +1,100 @@
-# uBlockFilters
-OregonCharterFilters.txt contains blocked and allowed websites that are automatically loaded for each Chromebook upon login. 
+# uBlock Config in G Suite
+This repo documents and explains the uBlock Origin configuration for students in G Suite. There is precious little documentation on uBlock Origin that is up to date and explains the deployment options so please, make sure to keep this up to date with changes.
 
-## How this filter works:
-Adding a domain to the filter will initially block the entire site from view and offer an option to turn this off. 
-![BlockDomain.png](BlockDomain.png)
-
-Blocking a specific element within the page will block that element for all students
-
-Ex: oregoncharter.zoom.us###navbar
-
-_This blocks the navigation bar on oregoncharter.zoom.us_
-
-To allow a website, use the following syntax
-
-@@||example.com
-
-The above will allow all assets and pages from the domain _example.com_. If there are any additional advertisements or assets hosted on that page, these may be blocked as they're not originating from _example.com_.
+## Where is this in G Suite?
+This is configured in the ORCA Students OU in G Suite -- [Link](https://admin.google.com/ac/chrome/apps/user?org=03ph8a2z1xfya4h) (Requires ORCA Google Account)
 
 ## Changing the JSON file from G Suite
-Just like all extensions, G Suite allows you to enable/disable features in uBlock Origin by providing a JSON file with which features you want. This can be found in G Suite by going to 
+Just like many extensions, G Suite allows you to enable/disable features in uBlock Origin by providing a JSON file with which features you want. This can be found in G Suite by going to 
 
 **Devices > Chrome > Apps & Extensions > Choosing the OU > uBlock Origin**
 
 The current JSON file being used is here:
 
-    {"adminSettings": 
-        {"Value": 
-            "{\"userSettings\": 
-                {\"contextMenuEnabled\": false, 
-                \"selectedFilterLists\": [
-                    \"user-filters\", 
-                    \"ublock-filters\", 
-                    \"ublock-badware\", 
-                    \"ublock-privacy\", 
-                    \"ublock-abuse\", 
-                    \"ublock-unbreak\", 
-                    \"easylist\", 
-                    \"easyprivacy\", 
-                    \"urlhaus-1\", 
-                    \"adguard-annoyance\", 
-                    \"ublock-annoyances\", 
-                    \"plowe-0\"
-                    ],
-                \"tooltipsDisabled\": true,
-                \"webrtcIPAddressHidden\": true },
-            \"netWhitelist\": 
-                \"about-scheme
-                \\nbehind-the-scene
-                \\nchrome-extension-scheme
-                \\nchrome-scheme
-                \\nloopconversation.about-scheme
-                \\nopera-scheme
-                \\ncanvas.com
-                \\nabcya.com
-                \\npoets.org
-                \\namnh.org
-                \\namericanyawp.com
-                \\nbiointeractive.org
-                \\ncommunity.canvaslms.com
-                \\nck12.org
-                \\ncor.stanford.edu
-                \\nicivics.org
-                \\nlearn.concord.org
-                \\ncurriki.org
-                \\ndesmos.com
-                \\ndiscoveryeducation.com
-                \\nedpuzzle.com
-                \\nbritannica.com
-                \\nengageny.org
-                \\nfcrr.org
-                \\ngeogebra.org
-                \\nillustrativemathematics.org
-                \\nixl.com
-                \\nkhanacademy.org
-                \\nloc.gov
-                \\nmiddleschoolchemistry.com
-                \\nblossoms.mit.edu
-                \\nspaceplace.nasa.gov
-                \\nkids.nationalgeographic.com
-                \\nnationalgeographic.org
-                \\nnatureworkseverywhere.org
-                \\nnewsela.com
-                \\noercommons.org
-                \\nopengeography.org
-                \\nopenstax.org
-                \\nopenupresources.org
-                \\npbslearningmedia.org
-                \\nphet.colorado.edu
-                \\ngutenberg.org
-                \\nreadingrockets.org
-                \\nreadwritethink.org
-                \\nrubegoldberg.com
-                \\nsketchtoy.com
-                \\nsheg.stanford.edu
-                \\nteachengineering.org
-                \\ntoytheater.com
-                \\nclassplayground.com
-                \\nturtlediary.com
-                \\nwhiteboard.fi
-                \\nyoucubed.org
-                \\norca.instructure.com\"
-            }"},
-            "disableDashboard":{"Value":false},
-            "disabledPopupPanelParts": {"Value": ["basicTools","extraTools","overviewPane"]}
-}
+    	{"adminSettings": 
+		{"Value": "{\"userSettings\": 
+				{\"contextMenuEnabled\": false, 
+					\"selectedFilterLists\": [
+						\"user-filters\", 
+						\"ublock-filters\", 
+						\"ublock-badware\", 
+						\"ublock-privacy\", 
+						\"ublock-abuse\", 
+						\"ublock-unbreak\", 
+						\"easylist\", 
+						\"easyprivacy\", 
+						\"urlhaus-1\", 
+						\"adguard-annoyance\", 
+						\"ublock-annoyances\", 
+						\"plowe-0\"
+						],
+					\"tooltipsDisabled\": true,
+					\"webrtcIPAddressHidden\": true },
+				\"netWhitelist\": \"about-scheme\
+					\nbehind-the-scene\
+					\nchrome-extension-scheme\
+					\nchrome-scheme\
+					\nloopconversation.about-scheme\
+					\nopera-scheme\
+					\ncanvas.com\
+					\nabcya.com\
+					\npoets.org\
+					\namnh.org\
+					\namericanyawp.com\
+					\nbiointeractive.org\
+					\ncommunity.canvaslms.com\
+					\nck12.org\
+					\ncor.stanford.edu\
+					\nicivics.org\
+					\nlearn.concord.org\
+					\ncurriki.org\
+					\ndesmos.com\
+					\ndiscoveryeducation.com\
+					\nedpuzzle.com\
+					\nbritannica.com\
+					\nengageny.org\
+					\nfcrr.org\
+					\ngeogebra.org\
+					\nillustrativemathematics.org\
+					\nixl.com\
+					\nkhanacademy.org\
+					\nloc.gov\
+					\nmiddleschoolchemistry.com\
+					\nblossoms.mit.edu\
+					\nspaceplace.nasa.gov\
+					\nkids.nationalgeographic.com\
+					\nnationalgeographic.org\
+					\nnatureworkseverywhere.org\
+					\nnewsela.com\
+					\noercommons.org\
+					\nopengeography.org\
+					\nopenstax.org\
+					\nopenupresources.org\
+					\npbslearningmedia.org\
+					\nphet.colorado.edu\
+					\ngutenberg.org\
+					\nreadingrockets.org\
+					\nreadwritethink.org\
+					\nrubegoldberg.com\
+					\nsketchtoy.com\
+					\nsheg.stanford.edu\
+					\nteachengineering.org\
+					\ntoytheater.com\
+					\nclassplayground.com\
+					\nturtlediary.com\
+					\nwhiteboard.fi\
+					\nyoucubed.org\
+					\norca.instructure.com\
+					\stukent.com\
+					\nmypearson.com\
+					\nlogin.pearson.com\
+					\nbigideasmath.com\
+					\nabcmouse.com\"}"
+				},
+	"disableDashboard":{"Value":true},
+	"disabledPopupPanelParts": {"Value": ["basicTools","extraTools","overviewPane"]}
+	}
+        
 
 What the above JSON values does is:
 
@@ -117,7 +108,7 @@ What the above JSON values does is:
     
 When inputting this into G Suite, please keep in mind that the text needs to be **all on one line** like so:
 
-    {"adminSettings": {"Value": "{\"userSettings\": {\"contextMenuEnabled\": false, \"selectedFilterLists\": [\"user-filters\", \"ublock-filters\", \"ublock-badware\", \"ublock-privacy\", \"ublock-abuse\", \"ublock-unbreak\", \"easylist\", \"easyprivacy\", \"urlhaus-1\", \"adguard-annoyance\", \"ublock-annoyances\", \"plowe-0\"],\"tooltipsDisabled\": true,\"webrtcIPAddressHidden\": true },\"netWhitelist\": \"about-scheme\\nbehind-the-scene\\nchrome-extension-scheme\\nchrome-scheme\\nloopconversation.about-scheme\\nopera-scheme\\ncanvas.com\\nabcya.com\\npoets.org\\namnh.org\\namericanyawp.com\\nbiointeractive.org\\ncommunity.canvaslms.com\\nck12.org\\ncor.stanford.edu\\nicivics.org\\nlearn.concord.org\\ncurriki.org\\ndesmos.com\\ndiscoveryeducation.com\\nedpuzzle.com\\nbritannica.com\\nengageny.org\\nfcrr.org\\ngeogebra.org\\nillustrativemathematics.org\\nixl.com\\nkhanacademy.org\\nloc.gov\\nmiddleschoolchemistry.com\\nblossoms.mit.edu\\nspaceplace.nasa.gov\\nkids.nationalgeographic.com\\nnationalgeographic.org\\nnatureworkseverywhere.org\\nnewsela.com\\noercommons.org\\nopengeography.org\\nopenstax.org\\nopenupresources.org\\npbslearningmedia.org\\nphet.colorado.edu\\ngutenberg.org\\nreadingrockets.org\\nreadwritethink.org\\nrubegoldberg.com\\nsketchtoy.com\\nsheg.stanford.edu\\nteachengineering.org\\ntoytheater.com\\nclassplayground.com\\nturtlediary.com\\nwhiteboard.fi\\nyoucubed.org\\norca.instructure.com\"}"},"disableDashboard":{"Value":true},"disabledPopupPanelParts": {"Value": ["basicTools","extraTools","overviewPane"]}}
+    {"adminSettings": {"Value": "{\"userSettings\": {\"contextMenuEnabled\": false, \"selectedFilterLists\": [\"user-filters\", \"ublock-filters\", \"ublock-badware\", \"ublock-privacy\", \"ublock-abuse\", \"ublock-unbreak\", \"easylist\", \"easyprivacy\", \"urlhaus-1\", \"adguard-annoyance\", \"ublock-annoyances\", \"plowe-0\"],\"tooltipsDisabled\": true,\"webrtcIPAddressHidden\": true },\"netWhitelist\": \"about-scheme\\nbehind-the-scene\\nchrome-extension-scheme\\nchrome-scheme\\nloopconversation.about-scheme\\nopera-scheme\\ncanvas.com\\nabcya.com\\npoets.org\\namnh.org\\namericanyawp.com\\nbiointeractive.org\\ncommunity.canvaslms.com\\nck12.org\\ncor.stanford.edu\\nicivics.org\\nlearn.concord.org\\ncurriki.org\\ndesmos.com\\ndiscoveryeducation.com\\nedpuzzle.com\\nbritannica.com\\nengageny.org\\nfcrr.org\\ngeogebra.org\\nillustrativemathematics.org\\nixl.com\\nkhanacademy.org\\nloc.gov\\nmiddleschoolchemistry.com\\nblossoms.mit.edu\\nspaceplace.nasa.gov\\nkids.nationalgeographic.com\\nnationalgeographic.org\\nnatureworkseverywhere.org\\nnewsela.com\\noercommons.org\\nopengeography.org\\nopenstax.org\\nopenupresources.org\\npbslearningmedia.org\\nphet.colorado.edu\\ngutenberg.org\\nreadingrockets.org\\nreadwritethink.org\\nrubegoldberg.com\\nsketchtoy.com\\nsheg.stanford.edu\\nteachengineering.org\\ntoytheater.com\\nclassplayground.com\\nturtlediary.com\\nwhiteboard.fi\\nyoucubed.org\\norca.instructure.com\\stukent.com\\nmypearson.com\\nlogin.pearson.com\\nbigideasmath.com\\nabcmouse.com\"}"},"disableDashboard":{"Value":true},"disabledPopupPanelParts": {"Value": ["basicTools","extraTools","overviewPane"]}}
 
 When adding in text that is not the words "true" or "false", the text needs to be surround by quotes and those quotes need to be escaped -- every double quote needs to be preceded by a '\\'. This is because of the way that uBlock ingests text -- we're essentially putting a JSON file inside of a JSON file (see userSettings listed within adminSettings). An example of this escape can be seen here:
 
@@ -125,9 +116,8 @@ When adding in text that is not the words "true" or "false", the text needs to b
 
 The above would add the blocker.txt file hosted on example.com to our blockers.
 
-## Options that can be added and what they do.
-The below list is taken from uBlock Origins github page and are all the possible options that we can include in our block list.
+To add in a new site to turn off uBlock Origin on, you would add this to the end of the netWhitelist section in the above json. You can add this in as:
 
-[Full options list](messages.json)
+    \nexample.com\
 
-[The source for this can be found here](https://github.com/gorhill/uBlock/blob/master/src/_locales/en/messages.json)
+So that the website is preceeded by "\n" and ends with a "\".
